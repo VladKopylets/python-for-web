@@ -1,3 +1,11 @@
+.sideNav {
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    position: relative;
+}
+
+
 .txtBold {
     font-weight: bold;
 }
@@ -10,7 +18,7 @@
 }
 .mainTitle {
     line-height: 50%;
-    font-size: larger;
+    font-size: small;
 }
 .sectionText {
     position: relative;
@@ -19,13 +27,13 @@
 .switch-language {
     position: relative;
     left: 60%;
-    top: -35px;
+    top: 35px;
 }
 
 hr {
     text-align:left;
     margin-left:0;
-    width: 70%;
+    width: 100%;
     position: relative;
     top: 6px;
 }
