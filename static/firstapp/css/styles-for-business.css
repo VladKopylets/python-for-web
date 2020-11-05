@@ -1,14 +1,37 @@
-.sideNav {
+.sidebar {
     height: 100%;
     width: 25%;
-    background-color: black;
-    position: relative;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(43, 44, 107);
+    overflow-x: hidden;
+    padding-top: 1%;
 }
 
+.sidebar-text {
+    color: white;
+    margin-top: -1vw;
+    margin-left: 0.5vw;
+}
+
+.full-name {
+    font-size: 3vw;
+}
+
+.profession {
+    font-size: 2vw;
+}
+
+.page-content {
+    margin-left: 25%;
+}
 
 .txtBold {
     font-weight: bold;
 }
+
 .sectionTitle {
     position: relative;
     font-weight: bolder;
@@ -16,14 +39,12 @@
     padding-top: 13px;
     top: 24px;
 }
-.mainTitle {
-    line-height: 50%;
-    font-size: small;
-}
+
 .sectionText {
     position: relative;
     left: 30px;
 }
+
 .switch-language {
     position: relative;
     left: 60%;
@@ -31,8 +52,7 @@
 }
 
 hr {
-    text-align:left;
-    margin-left:0;
+    text-align: left;
     width: 100%;
     position: relative;
     top: 6px;
