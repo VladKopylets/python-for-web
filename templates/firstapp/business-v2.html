@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 {% load static %}
+<html lang="en">
 <head>
   <link rel="stylesheet" href="{% static "firstapp/css/styles-for-business.css" %}" />
   <meta charset="utf-8">
@@ -14,15 +15,15 @@
     <p>Software Engineer</p>
   </div>
   <div class="switch-language">
-    <button class="btn"><a href="index-ua.html"> Ukrainian </a></button>
+    <button class="btn"><a href="{% url 'business_ua' %}"> UA </a></button>
   </div>
   <div>
     <span class="txtBold">Address &nbsp&nbsp</span>
     <span class="field">Ukraine, Cherkassy city, Somestreet st.</span>
   </div>
   <div>
-    <span class="txtBold">Phone &nbsp&nbsp</span>
-    <span class="field">0 800 555 35 35</span>
+    <span class="txtBold">Phone number &nbsp&nbsp</span>
+    <span class="field">+380 800 555 35 35</span>
   </div>
   <div>
     <span class="txtBold">E-mail &nbsp&nbsp</span>
@@ -50,7 +51,7 @@
 
 <div>
     <p class="sectionTitle">Education</p>
-    <hr І>
+    <hr>
     <div class="sectionText">
       <span>Cherkasy State Technological University</span>
       <span><small>(2019 - 2023)</small></span>

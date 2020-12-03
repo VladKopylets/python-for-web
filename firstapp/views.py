@@ -14,7 +14,7 @@ def business_ua(request):
 
 
 def creative(request):
-    return render(request, "firstapp/creative-v2.html")
+    return render(request, "firstapp/creative.html")
 
 
 def creative_ua(request):
