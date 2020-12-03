@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, "firstapp/index.html")
+    return render(request, "index.html")
 
 
 def business(request):
@@ -19,3 +19,7 @@ def creative(request):
 
 def creative_ua(request):
     return render(request, "firstapp/creativeUA-v2.html")
+
+
+def regex(request):
+    return render(request, "secondapp/regex.html")
