@@ -18,8 +18,8 @@ from firstapp import views
 
 urlpatterns = [
     path('', views.index),
-    path('business', views.business),
-    path('business-ua', views.business_ua),
-    path('creative', views.creative),
-    path('creative-ua', views.creative_ua),
+    path('firstapp/business', views.business, name='business'),
+    path('firstapp/business-ua', views.business_ua, name='business_ua'),
+    path('firstapp/creative', views.creative, name='creative'),
+    path('firstapp/creative-ua', views.creative_ua, name='creative_ua'),
 ]

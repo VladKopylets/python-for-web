@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 {% load static %}
-
+<html lang="ua">
 <head>
-  <link rel="stylesheet" href="{% static "css/styles.css" %}" />
+  <link rel="stylesheet" href="{% static "firstapp/css/styles-for-business.css" %}" />
   <meta charset="utf-8">
-  <title>Main page</title>
+  <title>Business CV</title>
 </head>
 
 <body>
-  <div class="mainTitle"> business ua </div>
+
+
+  <div class="mainTitle">
+    <h1>Владислав Копилець</h1>
+    <p>Інженер програмного забезпечення</p>
+  </div>
+  <div class="switch-language">
+    <button class="btn"><a href="{% url 'business' %}"> EN </a></button>
+  </div>
+  <div>
+    <span class="txtBold">Адреса &nbsp&nbsp</span>
+    <span class="field">Україна, Черкаси, вул. Якась-там</span>
+  </div>
+  <div>
+    <span class="txtBold">Номер телефону &nbsp&nbsp</span>
+    <span class="field">+380 800 555 35 35</span>
+  </div>
+  <div>
+    <span class="txtBold">E-mail &nbsp&nbsp</span>
+    <span class="field">example@gmail.com</span>
+  </div>
+
+  <div>
+    <p class="sectionTitle">Вміння</p>
+    <hr>
+    <ul>
+      <li>C#</li>
+      <li>C++</li>
+      <li>Java</li>
+      <li>HTML5 \ CSS2</li>
+    </ul>
+  </div>
+
+
+
+<div>
+    <p class="sectionTitle">Історія роботи</p>
+    <hr>
+    <span class="sectionText">null</span>
+</div>
+
+<div>
+    <p class="sectionTitle">Освіта</p>
+    <hr>
+    <div class="sectionText">
+      <span>Черкаський Державний Технологічний Університет</span>
+      <span><small>(2019 - 2023)</small></span>
+    </div>
+</div>
+
+  <div>
+    <p class="sectionTitle">Знання мов</p>
+    <hr>
+    <ul>
+      <li>Українська (рідна)</li>
+      <li>Російська (рідна)</li>
+      <li>English (середня - вище середньго)</li>
+    </ul>
   </div>
 </body>
+
+
+</html>
